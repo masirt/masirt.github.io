@@ -23,6 +23,9 @@
                     <a href="#home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#overview" class="nav-link">Overview</a>
+                </li>
+                <li class="nav-item">
                     <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
@@ -33,6 +36,12 @@
                 </li>
                 <li class="nav-item">
                     <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link nav-link-wip">
+                        Blog Posts
+                        <span class="wip-badge">WIP</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="#education" class="nav-link">Education</a>
@@ -54,41 +63,221 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="greeting">Hello, I'm</span>
-                        <span class="name">Marios Sirtmatsis</span>
-                    </h1>
-                    <h2 class="hero-subtitle">Data Scientist</h2>
+                    <h1 class="greeting">Hello, I'm</h1>
+                    <h2 class="name">Marios Sirtmatsis</h2>
+                    <h3 class="hero-subtitle"></h3>
                     <p class="hero-description">
-                        Transforming ambiguous business problems into structured, data-driven solutions. 
-                        Specializing in production ML deployment, advanced analytics, and AI innovation 
-                        that drives organizational decisions and strategic partnerships.
+                        Data Scientist transforming ambiguous business problems into strategic ML solutions. 
+                        Proven track record deploying production models that drive organizational decisions and 
+                        establish meaningful partnerships with senior stakeholders.
                     </p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Currently at</span>
+                            <span class="stat-value">Personio</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Based in</span>
+                            <span class="stat-value">Munich, Germany</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Expertise</span>
+                            <span class="stat-value">Production ML & Stakeholder Excellence</span>
+                        </div>
                     </div>
-                    <div class="hero-social">
-                        <a href="https://www.linkedin.com/in/msirtmatsis/" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
+                    <div class="hero-buttons">
+                        <a href="#experience" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="https://github.com/masirt" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="mailto:mariossirtmatsis@gmail.com" class="social-link">
-                            <i class="fas fa-envelope"></i>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                            <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
                 </div>
                 <div class="hero-image">
                     <div class="profile-image">
+                        <div class="image-glow"></div>
                         <img src="mario.png" alt="Marios Sirtmatsis - Data Scientist" loading="lazy">
                     </div>
                 </div>
             </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <span class="scroll-text">Scroll to explore</span>
+            </div>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
+    </section>
+
+    <!-- Portfolio Overview Dashboard -->
+    <section id="overview" class="portfolio-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Overview</h2>
+                <p class="section-subtitle">Navigate through my expertise and experience efficiently</p>
+            </div>
+            <div class="overview-grid">
+                <div class="overview-card" data-section="about">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Data Scientist</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="highlight-metric">
+                            <span class="metric-number">3+</span>
+                            <span class="metric-label">Years Experience</span>
+                        </div>
+                        <p class="card-description">Translating complex business problems into production ML solutions with proven stakeholder impact</p>
+                        <div class="card-tags">
+                            <span class="mini-tag">Production ML</span>
+                            <span class="mini-tag">Business Impact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-card" data-section="experience">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Professional Journey</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="mini-timeline">
+                            <div class="timeline-point active">
+                                <span class="company-mini">Personio</span>
+                                <span class="role-mini">Data Scientist</span>
+                            </div>
+                            <div class="timeline-point">
+                                <span class="company-mini">Bosch Rexroth</span>
+                                <span class="role-mini">Software Engineer</span>
+                            </div>
+                        </div>
+                        <div class="card-metrics">
+                            <span class="mini-metric">2 Companies</span>
+                            <span class="mini-metric">Multiple Industries</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-card" data-section="skills">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="skills-preview">
+                            <div class="skill-category-mini">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Advanced SQL & Python</span>
+                            </div>
+                            <div class="skill-category-mini">
+                                <i class="fas fa-robot"></i>
+                                <span>ML & AI Solutions</span>
+                            </div>
+                            <div class="skill-category-mini">
+                                <i class="fas fa-cloud"></i>
+                                <span>AWS & Snowflake</span>
+                            </div>
+                        </div>
+                        <div class="highlight-metric">
+                            <span class="metric-number">Passion</span>
+                            <span class="metric-label">ML & AI with Production Impact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-card" data-section="experience">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Key Achievements</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="projects-preview">
+                            <div class="project-mini">
+                                <i class="fas fa-brain"></i>
+                                <span>AI Platform (Conference Selected)</span>
+                            </div>
+                            <div class="project-mini">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Churn Prevention Model</span>
+                            </div>
+                            <div class="project-mini">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Allocation Optimization</span>
+                            </div>
+                        </div>
+                        <div class="card-metrics">
+                            <span class="mini-metric">Production Impact</span>
+                            <span class="mini-metric">Award-Winning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-card" data-section="education">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="education-preview">
+                            <div class="degree-mini">
+                                <span class="degree">M.Sc. Data Engineering & Analytics</span>
+                                <span class="school">TU Munich</span>
+                            </div>
+                            <div class="degree-mini">
+                                <span class="degree">Exchange Program</span>
+                                <span class="school">UMass Amherst</span>
+                            </div>
+                        </div>
+                        <div class="highlight-metric">
+                            <span class="metric-number">1.5/1.0</span>
+                            <span class="metric-label">GPA (German)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-card" data-section="contact">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Connect</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="contact-preview">
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Munich, Germany</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn Available</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="availability-status">
+                            <span class="status-indicator"></span>
+                            <span>Let's connect!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -102,51 +291,33 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="about-description">
-                        Data Scientist with 3+ years of experience translating ambiguous business problems 
+                        Data Scientist with multiple years of experience translating ambiguous business problems 
                         into structured, data-driven analyses that drive organizational decisions. 
-                        Proven track record deploying production ML models and establishing strategic 
+                        Proven track record deploying production ML models with significant business impact and establishing strategic 
                         partnerships with senior stakeholders.
                     </p>
                     <p class="about-description">
                         Expert in advanced SQL, Python for analysis, and statistical methods with exceptional 
                         ability to communicate complex findings to diverse audiences from technical teams 
-                        to executive leadership. Background spans cybersecurity, data engineering, 
-                        and applied AI/DS across leading technology companies.
+                        to executive leadership. Specialized in transforming technical concepts into tangible business value 
+                        through stakeholder partnership excellence and driving adoption.
                     </p>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <i class="fas fa-robot"></i>
-                            <h4>ML Production</h4>
-                            <p>Production ML models preventing significant ARR churn</p>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-chart-line"></i>
-                            <h4>Process Optimization</h4>
-                            <p>Major efficiency improvements through automation</p>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-trophy"></i>
-                            <h4>Recognition</h4>
-                            <p>Snowflake World Tour speaker</p>
-                        </div>
-                    </div>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">3+</span>
-                        <span class="stat-label">Years Experience</span>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Stakeholder Excellence</h4>
+                        <p>Strong stakeholder adoption with transformational business impact</p>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">Production</span>
-                        <span class="stat-label">ML Models</span>
+                    <div class="highlight-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Business Impact</h4>
+                        <p>Significant business outcomes through strategic ML deployment</p>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">5+</span>
-                        <span class="stat-label">Companies</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">6+</span>
-                        <span class="stat-label">Research Projects</span>
+                    <div class="highlight-item">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Innovation Leadership</h4>
+                        <p>AI platform selected for industry conference presentation</p>
                     </div>
                 </div>
             </div>
@@ -158,10 +329,10 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Professional Experience</h2>
-                <p class="section-subtitle">My Career Journey</p>
+                <p class="section-subtitle">Driving organizational decisions through strategic ML deployment</p>
             </div>
             <div class="timeline">
-                <div class="timeline-item">
+                <div class="timeline-item featured">
                     <div class="timeline-dot">
                         <div class="company-logo">
                             <img src="personio_logo.jpeg" alt="Personio">
@@ -171,33 +342,50 @@
                         <div class="timeline-header">
                             <h3>Data Scientist</h3>
                             <span class="company">Personio</span>
-                            <span class="period">07/2022 – Present</span>
+                            <span class="period">July 2022 – Present</span>
                             <span class="location">Munich, Germany</span>
                         </div>
                         <div class="timeline-body">
                             <div class="achievement-group">
                                 <h4>Strategic ML Model Development & Production Deployment</h4>
                                 <ul>
-                                    <li>Developed and deployed production ML model contributing to significant ARR churn prevention</li>
-                                    <li>Led data-driven allocation model development improving allocation fairness through advanced statistical optimization</li>
-                                    <li>Deployed downsell prevention system creating early warning system for at-risk customers</li>
+                                    <li><strong>Churn Prevention Model:</strong> Developed and deployed production ML model contributing to preventing significant ARR churn, achieving exceptional stakeholder adoption and completely transforming Customer Success team workflows</li>
+                                    <li><strong>Books of Business Optimization:</strong> Led data-driven allocation model development as primary contributor, improving allocation fairness through advanced statistical optimization and strategic RevOps stakeholder management</li>
+                                    <li><strong>Downsell Prevention System:</strong> Deployed production model creating early warning system for downselling customers, dramatically reducing risk identification time while establishing scalable ML infrastructure</li>
                                 </ul>
                             </div>
                             <div class="achievement-group">
                                 <h4>Advanced Analytics & AI Innovation Leadership</h4>
                                 <ul>
-                                    <li>Engineered award-winning RAG-based LLM platform selected for Snowflake World Tour presentation</li>
-                                    <li>Established scalable ML scoring infrastructure enabling rapid deployment across organization</li>
-                                    <li>Spearheaded multiple AI hackathons recognized for deep LLM expertise</li>
+                                    <li><strong>Voice of Customer AI Platform:</strong> Engineered award-winning RAG-based LLM platform using Streamlit and Snowflake Cortex AI, selected for Snowflake World Tour presentation and company all-hands recognition</li>
+                                    <li><strong>Production ML Infrastructure:</strong> Established scalable ML scoring infrastructure in Salesforce as main technical lead, enabling rapid deployment of future models across organization</li>
+                                    <li><strong>Innovation & Hackathon Leadership:</strong> Spearheaded multiple AI hackathons including AI Surge Week VoX and Customer Hive, recognized for deep LLM expertise and collaborative technical leadership</li>
                                 </ul>
                             </div>
                             <div class="achievement-group">
                                 <h4>Stakeholder Management & Strategic Partnership Excellence</h4>
                                 <ul>
-                                    <li>Conducted extensive roadshow presentations across business units</li>
-                                    <li>Successfully positioned data science team from support function to strategic business partner</li>
-                                    <li>Built strong partnerships with Customer Success, Revenue Operations, and Sales Development teams</li>
+                                    <li><strong>Executive Engagement:</strong> Conducted multiple roadshow presentations across business units, adapting communication for diverse audiences from individual contributors to Growth VPs and senior leadership</li>
+                                    <li><strong>Change Management Leadership:</strong> Successfully positioned data science team from support function to strategic business partner through effective stakeholder relationship building and business impact demonstration</li>
+                                    <li><strong>Cross-functional Collaboration:</strong> Built exceptionally strong partnerships with Customer Success, Revenue Operations, and Sales Development teams, consistently recognized for exceptional business acumen and strategic thinking</li>
                                 </ul>
+                            </div>
+                            <div class="impact-metrics">
+                                <div class="metric-card">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span class="metric-title">Process Efficiency</span>
+                                    <span class="metric-description">Increased customer feedback insights process efficiency through automated dashboard development</span>
+                                </div>
+                                <div class="metric-card">
+                                    <i class="fas fa-users"></i>
+                                    <span class="metric-title">Stakeholder Impact</span>
+                                    <span class="metric-description">"Tremendous impact for the entire R&S org" with "exceptional business acumen"</span>
+                                </div>
+                                <div class="metric-card">
+                                    <i class="fas fa-trophy"></i>
+                                    <span class="metric-title">Innovation Recognition</span>
+                                    <span class="metric-description">AI platform selected for Snowflake World Tour presentation</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,17 +399,17 @@
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3>Software Developer and Data Engineer</h3>
+                            <h3>Software Engineer and Data Engineer</h3>
                             <span class="company">Bosch Rexroth</span>
-                            <span class="period">01/2022 – 06/2022</span>
-                            <span class="location">Ulm, Baden-Württemberg, Germany</span>
+                            <span class="period">January 2022 – June 2022</span>
+                            <span class="location">Ulm, Germany</span>
                             <span class="work-type">Work Study</span>
                         </div>
                         <div class="timeline-body">
                             <ul>
-                                <li>Implemented digital twins of production assets, utilizing C#/.NET for development and snapcraft for deployment on Bosch's ctrlX automation platform</li>
-                                <li>Integrated MSSQL Servers and composed visual analyses using Power BI to enhance transparency and overall equipment effectiveness of foundry lines</li>
-                                <li>Consulted clients in developing strategic approaches for data collection, modeling, and analysis using Machine Learning and AI techniques</li>
+                                <li><strong>Digital Twin Implementation:</strong> Implemented digital twins of production assets utilizing C#/.NET for development and snapcraft for deployment on Bosch's ctrlX automation platform</li>
+                                <li><strong>Data Integration & Analytics:</strong> Integrated MSSQL Servers and composed visual analyses using Power BI to enhance transparency and overall equipment effectiveness of foundry lines</li>
+                                <li><strong>Strategic ML Consulting:</strong> Consulted clients in developing strategic approaches for data collection, modeling, and analysis using Machine Learning and AI techniques</li>
                             </ul>
                         </div>
                     </div>
@@ -237,68 +425,20 @@
                         <div class="timeline-header">
                             <h3>Tutor</h3>
                             <span class="company">Ulm University</span>
-                            <span class="period">10/2020 – 07/2021</span>
-                            <span class="location">Ulm, Baden-Württemberg, Germany</span>
+                            <span class="period">October 2020 – July 2021</span>
+                            <span class="location">Ulm, Germany</span>
                             <span class="work-type">Work Study</span>
                         </div>
                         <div class="timeline-body">
                             <ul>
-                                <li>Broke down complex algorithms and approaches into understandable steps, explaining them clearly to students</li>
-                                <li>Guided students in problem-solving and code implementation using relevant programming languages and crafting interactive applications</li>
-                                <li>Collaborated with 13 other tutors and a teaching assistant to organize the course structure</li>
+                                <li><strong>Algorithm Education:</strong> Broke down complex algorithms and approaches into understandable steps, explaining them clearly to students with diverse technical backgrounds</li>
+                                <li><strong>Collaborative Learning:</strong> Facilitated hands-on learning sessions that improved student comprehension of advanced computer science concepts</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot">
-                        <div class="company-logo">
-                            <img src="mercedes_benz_tech_innovation_logo.jpeg" alt="Mercedes-Benz Tech Innovation">
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Information Security Analyst</h3>
-                            <span class="company">Mercedes-Benz Tech Innovation</span>
-                            <span class="period">07/2019 – 06/2020</span>
-                            <span class="location">Ulm, Baden-Württemberg, Germany</span>
-                            <span class="work-type">Work Study</span>
-                        </div>
-                        <div class="timeline-body">
-                            <ul>
-                                <li>Developed a dashboard for automating the evaluation of asset management data, leading to enhanced efficiency in asset monitoring for Information Security, using Flask and Angular</li>
-                                <li>Orchestrated a cyber security day event with over 200 participants, fostering awareness and education on cyber security best practices</li>
-                                <li>Supported in the execution of Penetration Tests, discovering and resolving security weaknesses</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot">
-                        <div class="company-logo">
-                            <div class="logo-fallback" style="display: flex;">DS</div>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Data Protection Consultant (Supporting)</h3>
-                            <span class="company">ditis Systeme - The Security Company</span>
-                            <span class="period">10/2018 – 03/2019</span>
-                            <span class="location">Ulm, Baden-Württemberg, Germany</span>
-                            <span class="work-type">Work Study</span>
-                        </div>
-                        <div class="timeline-body">
-                            <ul>
-                                <li>Structured a data protection management system following the criteria of the European General Data Protection Regulation (GDPR)</li>
-                                <li>Supported technical penetration tests within IT-Security</li>
-                                <li>Processed customer inquiries within data protection and performed quality assurance of documents and tools</li>
-                                <li>Translated documents and supported international compliance efforts</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
     </section>
@@ -307,64 +447,201 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Core Competencies</h2>
-                <p class="section-subtitle">Technical Skills & Expertise</p>
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Core competencies spanning analytics, machine learning, and infrastructure</p>
             </div>
-            <div class="skills-grid">
+            <div class="skills-categories">
+                <!-- Top Row: Technical Proficiency (3 columns) -->
                 <div class="skill-category">
                     <div class="category-header">
-                        <i class="fas fa-chart-bar"></i>
-                        <h3>Analytics & Statistical Methods</h3>
+                        <div class="category-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Expert Level</h3>
+                        <p>Core competencies with deep mastery and practical application</p>
                     </div>
                     <div class="skills-list">
-                        <span class="skill-tag">Advanced SQL</span>
-                        <span class="skill-tag">Python (Pandas, NumPy, SciPy)</span>
-                        <span class="skill-tag">Statistical Analysis</span>
-                        <span class="skill-tag">A/B Testing</span>
-                        <span class="skill-tag">Hypothesis Testing</span>
-                        <span class="skill-tag">Regression Analysis</span>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Advanced SQL</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Complex queries, optimization, data manipulation</span>
+                        </div>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Pandas, NumPy, SciPy, Scikit-learn, Web Development</span>
+                        </div>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Statistical Analysis</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Hypothesis Testing, Regression Analysis</span>
+                        </div>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Snowflake</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Cortex AI, Feature Store</span>
+                        </div>
+
+                        <div class="skill-item expert">
+                            <span class="skill-name">D3.js</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Interactive Visualizations</span>
+                        </div>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Streamlit</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">AI Platform Development</span>
+                        </div>
+                        <div class="skill-item expert">
+                            <span class="skill-name">Data Storytelling</span>
+                            <span class="skill-level">Expert</span>
+                            <span class="skill-detail">Executive Communication</span>
+                        </div>
                     </div>
                 </div>
+
                 <div class="skill-category">
                     <div class="category-header">
-                        <i class="fas fa-robot"></i>
-                        <h3>Machine Learning & AI</h3>
+                        <div class="category-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Proficient Level</h3>
+                        <p>Strong working knowledge with practical experience</p>
                     </div>
                     <div class="skills-list">
-                        <span class="skill-tag">Production ML Deployment</span>
-                        <span class="skill-tag">TensorFlow & PyTorch</span>
-                        <span class="skill-tag">Natural Language Processing</span>
-                        <span class="skill-tag">LLM Integration (LangChain)</span>
-                        <span class="skill-tag">Deep Learning</span>
-                        <span class="skill-tag">MLOps</span>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">A/B Testing</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">Experimental Design & Causal Inference</span>
+                        </div>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">AWS</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">SageMaker, EC2, S3</span>
+                        </div>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">Power BI</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">Business Analytics & Reporting</span>
+                        </div>
+
+                        <div class="skill-item proficient">
+                            <span class="skill-name">Salesforce</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">ML Infrastructure Integration</span>
+                        </div>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">C#/.NET</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">Enterprise Development</span>
+                        </div>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">MLOps</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">MLflow, Git, CI/CD pipelines</span>
+                        </div>
+                        <div class="skill-item proficient">
+                            <span class="skill-name">Tableau</span>
+                            <span class="skill-level">Proficient</span>
+                            <span class="skill-detail">Advanced Dashboard Development</span>
+                        </div>
                     </div>
                 </div>
+
                 <div class="skill-category">
                     <div class="category-header">
-                        <i class="fas fa-cloud"></i>
-                        <h3>Data Infrastructure</h3>
+                        <div class="category-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Intermediate Level</h3>
+                        <p>Solid foundation with growing expertise</p>
                     </div>
                     <div class="skills-list">
-                        <span class="skill-tag">AWS & Snowflake</span>
-                        <span class="skill-tag">Data Warehousing</span>
-                        <span class="skill-tag">ETL/ELT Workflows</span>
-                        <span class="skill-tag">SageMaker & MLflow</span>
-                        <span class="skill-tag">Feature Engineering</span>
-                        <span class="skill-tag">Analytics Engineering</span>
+                        <div class="skill-item intermediate">
+                            <span class="skill-name">R</span>
+                            <span class="skill-level">Intermediate</span>
+                            <span class="skill-detail">ggplot2, dplyr, statistical modeling</span>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">Intermediate</span>
+                            <span class="skill-detail">Vue.js, D3.js</span>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-level">Intermediate</span>
+                            <span class="skill-detail">Object-Oriented Programming</span>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <span class="skill-name">Data Warehousing</span>
+                            <span class="skill-level">Intermediate</span>
+                            <span class="skill-detail">ETL/ELT Workflows, DBT</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-category">
+
+                <!-- Bottom Row: Domain Expertise (2 columns, centered) -->
+                <div class="skill-category domain-expertise">
                     <div class="category-header">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Business Intelligence</h3>
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Production systems and cutting-edge AI techniques</p>
                     </div>
-                    <div class="skills-list">
-                        <span class="skill-tag">Tableau & Power BI</span>
-                        <span class="skill-tag">Dashboard Development</span>
-                        <span class="skill-tag">D3.js Visualization</span>
-                        <span class="skill-tag">KPI Monitoring</span>
-                        <span class="skill-tag">Strategic Analytics</span>
-                        <span class="skill-tag">Data Storytelling</span>
+                    <div class="skills-list compact">
+                        <div class="skill-item">
+                            <span class="skill-name">Production ML Systems</span>
+                            <span class="skill-detail">End-to-end deployment & monitoring</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Deep Learning</span>
+                            <span class="skill-detail">TensorFlow, Keras, PyTorch</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">LLM Integration</span>
+                            <span class="skill-detail">LangChain, LangGraph, RAG Systems</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Natural Language Processing</span>
+                            <span class="skill-detail">Advanced NLP Techniques</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Predictive Modeling</span>
+                            <span class="skill-detail">Supervised/Unsupervised Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category domain-expertise">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Leadership & Communication</h3>
+                        <p>Strategic influence and organizational transformation</p>
+                    </div>
+                    <div class="skills-list compact">
+                        <div class="skill-item">
+                            <span class="skill-name">Executive Stakeholder Management</span>
+                            <span class="skill-detail">C-level & Cross-functional Leadership</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Technical Communication</span>
+                            <span class="skill-detail">Technical to Executive Audiences</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Change Management</span>
+                            <span class="skill-detail">Strategic Partnership Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Innovation Leadership</span>
+                            <span class="skill-detail">Hackathons & AI Initiatives</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Global Communication</span>
+                            <span class="skill-detail">German, English, Greek (Native)</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -566,7 +843,7 @@
                         <p class="period">09/2021 – 12/2021</p>
                         <p class="gpa">GPA: 3.8/4.0</p>
                         <div class="coursework">
-                            <p><strong>Program:</strong> Bilateral Baden-Württemberg Program through Ulm University</p>
+                            <p><strong>Program:</strong> Bilateral Exchange Program through Ulm University</p>
                             <p><strong>Coursework:</strong> Machine Learning, Reinforcement Learning, Systems for Data Science</p>
                         </div>
                     </div>
@@ -594,8 +871,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's Connect</p>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to collaborate on your next data science project</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -603,14 +880,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <a href="mailto:mariossirtmatsis@gmail.com">mariossirtmatsis@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+4917676880760">+49 176 76880760</a>
+                            <a href="mailto:marios.sirtmatsis@gmail.com">marios.sirtmatsis@gmail.com</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -621,23 +891,23 @@
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-language"></i>
+                        <i class="fas fa-calendar-alt"></i>
                         <div>
-                            <h4>Languages</h4>
-                            <span>German, English, Greek (Native) • French (Beginner)</span>
+                            <h4>Availability</h4>
+                            <span>Let's connect!</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-social">
-                    <h3>Connect with me</h3>
+                    <h3>Professional Networks</h3>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/msirtmatsis/" target="_blank" class="social-link-large">
-                            <i class="fab fa-linkedin-in"></i>
-                            <span>LinkedIn</span>
+                            <i class="fab fa-linkedin"></i>
+                            Connect on LinkedIn
                         </a>
                         <a href="https://github.com/masirt" target="_blank" class="social-link-large">
                             <i class="fab fa-github"></i>
-                            <span>GitHub</span>
+                            View GitHub Projects
                         </a>
                     </div>
                 </div>
@@ -645,11 +915,13 @@
         </div>
     </section>
 
+
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Marios Sirtmatsis. All rights reserved.</p>
+                <p>&copy; 2025 Marios Sirtmatsis. All rights reserved.</p>
                 <p>Data Scientist • Munich, Germany</p>
             </div>
         </div>
