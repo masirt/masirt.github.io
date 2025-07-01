@@ -63,11 +63,11 @@ class AnimationQueue {
         return new Promise(resolve => {
             if (!element.classList.contains('animate')) {
                 console.log('🎬 Applying animate class to:', element.className);
-                element.classList.add('animate');
-                element.addEventListener('transitionend', resolve, { once: true });
-                
+            element.classList.add('animate');
+            element.addEventListener('transitionend', resolve, { once: true });
+            
                 // Fallback timeout
-                setTimeout(resolve, 500);
+            setTimeout(resolve, 500);
             } else {
                 console.log('🎬 Element already animated:', element.className);
                 resolve();
@@ -92,15 +92,15 @@ const revealObserver = createObserver((entries) => {
         }
     });
 });
-
+            
 // Simple function to animate any element
 function animateElement(element) {
     if (!element.classList.contains('animate')) {
-        const delay = Array.from(element.parentNode.children).indexOf(element) * 75;
-        setTimeout(() => {
+            const delay = Array.from(element.parentNode.children).indexOf(element) * 75;
+            setTimeout(() => {
             element.classList.add('animate');
             console.log('✨ Animated:', element.className);
-        }, delay);
+            }, delay);
     }
 }
 
@@ -136,9 +136,9 @@ function forceAnimateVisibleElements() {
                     element.classList.add('animate');
                     console.log('🎯 Force animated:', element.className);
                 }, index * 100);
-            }
-        });
+        }
     });
+});
 }
 
 // Enhanced navigation event handling
@@ -641,7 +641,7 @@ function showBlogWIPModal() {
             backdrop.remove();
             overlay.remove();
         }, 4500);
-     });
+    });
 }
 
 
@@ -732,8 +732,8 @@ function hideKeyboardHints() {
 // Faster loading sequence
 function initializeLoadingSequence() {
     // Simplified loading - no double animation
-    document.body.style.opacity = '1';
-    document.body.style.transform = 'translateY(0)';
+        document.body.style.opacity = '1';
+        document.body.style.transform = 'translateY(0)';
 }
 
 // Advanced navigation with faster interactions
@@ -919,10 +919,10 @@ function initializeScrollEffects() {
         
         // Debounce scroll updates for better performance
         scrollTimeout = setTimeout(() => {
-            if (!ticking) {
-                requestAnimationFrame(updateScrollEffects);
-                ticking = true;
-            }
+        if (!ticking) {
+            requestAnimationFrame(updateScrollEffects);
+            ticking = true;
+        }
         }, 10);
     }, 8));
     
